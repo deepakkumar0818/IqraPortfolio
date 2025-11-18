@@ -10,7 +10,7 @@ export default function BlogPost({ slug }: BlogPostProps) {
     description:
       'This is a placeholder blog post. Replace with your fetched content. It is styled to be readable on small screens and scales on larger ones.',
     date: '2024-01-15',
-    author: 'Deepak Kumar',
+    author: 'Iqra Zafar',
     tags: ['React', 'TypeScript', 'Web Development'],
   }
 

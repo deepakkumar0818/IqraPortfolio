@@ -12,56 +12,47 @@ const Experience = () => {
 
   const experiences = [
     {
-      company: 'Helios Tech Labs',
+      company: 'Brihaspati Infotech',
       position: 'Software Developer',
       location: 'Mohali, Punjab',
-      period: 'December 2024 – Present',
+      period: 'May 2025 – Present',
       description:
-        'Building scalable web applications and optimizing system performance while delivering high‑performance solutions tailored to client requirements.',
+        'Building scalable web applications and optimizing system performance while delivering high-performance solutions tailored to client requirements.',
       achievements: [
-        'Proficient in Java, MERN, Zoho, and full‑stack development',
-        'Hands‑on experience with cloud technologies and databases',
+        'Developed and maintained responsive web applications with a strong focus on performance and user experience',
+        'Created robust backend APIs and integrated frontend components, ensuring seamless functionality across platforms',
+        'Implemented best practices in code quality, testing, and deployment, ensuring consistency with modern development standards',
       ],
       color: 'from-cyan-500 to-blue-600',
     },
     {
-      company: 'Department Of Holistic Department',
-      position: 'MERN Stack Developer',
+      company: 'Pixel Bharat',
+      position: 'Software Developer',
       location: 'Mohali, Punjab',
-      period: 'July 2024 – December 2024',
+      period: 'June 2024 – April 2025',
       description:
-        'Developed robust and scalable full‑stack applications leveraging the MERN stack (MongoDB, Express.js, React, Node.js).',
+        'Collaborated on multiple client projects, developing full-stack applications with focus on functionality and performance.',
       achievements: [
-        'Engineered efficient RESTful APIs and optimized MongoDB schemas',
-        'Ensured application scalability, reliability, and streamlined data communication',
+        'Collaborated on software development for multiple client projects, ensuring robust and scalable solutions',
+        'Conducted code reviews and implemented feedback to enhance overall code quality and maintainability',
+        'Utilized modern frameworks and tools to create efficient applications, streamlining the development process',
       ],
       color: 'from-purple-500 to-violet-600',
     },
     {
-      company: 'Hoping Minds',
-      position: 'Intern',
+      company: 'Department of Holistic Education',
+      position: 'Software Developer Intern',
       location: 'Mohali, Punjab',
-      period: 'January 2024 – June 2024',
+      period: 'January 2024 – July 2024',
       description:
-        'Built dynamic and responsive web applications using MongoDB, Express.js, React, and Node.js with strong focus on UX and performance.',
+        'Contributed to the development of a comprehensive E-commerce platform with focus on functionality and performance.',
       achievements: [
-        'Designed and implemented RESTful APIs for client–server communication',
-        'Utilized MongoDB for data modeling, CRUD operations, and query optimization',
+        'Contributed to the development of a comprehensive E-commerce platform',
+        'Designed and implemented user management systems and authentication modules',
+        'Built responsive frontend components and integrated them with backend services, ensuring smooth functionality across desktop and mobile devices',
+        'Collaborated with a multidisciplinary team to ensure the platform met functionality, performance, and scalability expectations',
       ],
       color: 'from-emerald-500 to-green-600',
-    },
-    {
-      company: 'Alles Global Solutions',
-      position: 'MERN Stack Developer',
-      location: 'Jalandhar, Punjab',
-      period: '2022 – 2023',
-      description:
-        'Developed responsive web applications using HTML, CSS, JavaScript, React, and Next.js; improved performance through code optimization.',
-      achievements: [
-        'Collaborated with teams using Git/GitHub for version control and reviews',
-        'Ensured smooth, efficient workflows across projects',
-      ],
-      color: 'from-orange-500 to-red-600',
     },
   ]
 
@@ -179,16 +170,15 @@ const Experience = () => {
           {/* Summary Stats */}
           <motion.div variants={itemVariants} className="grid grid-cols-1 md:grid-cols-4 gap-6">
             {[
-              { number: '4', label: 'Years Experience' },
-              { number: '4', label: 'Companies Worked With' },
-              { number: '50+', label: 'Projects Delivered' },
-              { number: '100K+', label: 'Users Impacted' },
+              { number: '2+', label: 'Years Experience' },
+              { number: '3', label: 'Companies Worked With' },
+              { number: '30+', label: 'Projects Delivered' },
+              { number: '50K+', label: 'Users Impacted' },
             ].map((stat, index) => (
               <motion.div
                 key={stat.label}
                 className="text-center p-6 bg-white/5 border border-white/10 rounded-2xl backdrop-blur-xl"
                 whileHover={{ scale: 1.05, y: -5 }}
-                transition={{ duration: 0.2 }}
                 initial={{ opacity: 0, y: 20 }}
                 animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}

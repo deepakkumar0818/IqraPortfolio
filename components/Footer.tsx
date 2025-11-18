@@ -8,9 +8,9 @@ const Footer = () => {
   const currentYear = new Date().getFullYear()
 
   const socialLinks = [
-    { name: 'GitHub', href: 'https://github.com/deepakkumar0818', icon: Github },
-    { name: 'LinkedIn', href: 'https://www.linkedin.com/in/itsdeepakk/', icon: Linkedin },
-    { name: 'Email', href: 'https://mail.google.com/mail/?view=cm&fs=1&to=deepakkumr0818@gmail.com&su=New%20Project%20Inquiry&body=Hi%20Deepak%2C%0A%0AI%27d%20like%20to%20discuss%20a%20potential%20project.%20Here%20are%20the%20details%3A%0A%0A-%20Budget%3A%0A-%20Timeline%3A%0A-%20Scope%3A%0A%0AThanks%2C%0A', icon: Mail },
+    { name: 'GitHub', href: 'https://github.com/iqra-zafar', icon: Github },
+    { name: 'LinkedIn', href: 'https://www.linkedin.com/in/iqrazafar?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', icon: Linkedin },
+    { name: 'Email', href: 'https://mail.google.com/mail/?view=cm&fs=1&to=iqrazafarkhan01@gmail.com&su=New%20Project%20Inquiry&body=Hi%20Iqra%2C%0A%0AI%27d%20like%20to%20discuss%20a%20potential%20project.%20Here%20are%20the%20details%3A%0A%0A-%20Budget%3A%0A-%20Timeline%3A%0A-%20Scope%3A%0A%0AThanks%2C%0A', icon: Mail },
   ]
 
   const quickLinks = [
@@ -34,7 +34,7 @@ const Footer = () => {
             viewport={{ once: true }}
             className="space-y-4"
           >
-            <h3 className="text-2xl font-bold text-white italic font-[cursive]">Deepak Kumar</h3>
+            <h3 className="text-2xl font-bold text-white italic font-[cursive]">Iqra Zafar</h3>
             <p className="text-gray-300 leading-relaxed">
               Creating beautiful, functional, and user-centered digital experiences that make a difference.
             </p>
@@ -92,7 +92,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold text-white">Get In Touch</h4>
             <div className="space-y-2">
               <p className="text-gray-300">
-                <span className="text-primary-400">Email:</span> deepakkumr0818@gmail.com
+                <span className="text-primary-400">Email:</span> iqrazafarkhan01@gmail.com
               </p>
               <p className="text-gray-300">
                 <span className="text-primary-400">Location:</span> mohali, punjab
@@ -114,7 +114,7 @@ const Footer = () => {
         >
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-gray-400 text-sm">
-              © {currentYear} Deepak Kumar. All rights reserved.
+              © {currentYear} Iqra Zafar. All rights reserved.
             </p>
           </div>
         </motion.div>

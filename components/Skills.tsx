@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { useState } from 'react'
-import { Code, Database, Palette, Smartphone, Globe, Zap } from 'lucide-react'
+import { Code, Database, Palette, Smartphone, Zap } from 'lucide-react'
 
 const Skills = () => {
   const [ref, inView] = useInView({
@@ -31,10 +31,11 @@ const Skills = () => {
       icon: Database,
       skills: [
         { name: 'Node.js', level: 90, years: '5+' },
-        { name: 'Python', level: 85, years: '4+' },
-        { name: 'PostgreSQL', level: 88, years: '4+' },
-        { name: 'MongoDB', level: 82, years: '3+' },
-        { name: 'Redis', level: 80, years: '2+' },
+        { name: 'Express.js', level: 88, years: '4+' },
+        { name: 'JAVA', level: 85, years: '4+' },
+        { name: 'SQL', level: 82, years: '3+' },
+        { name: 'MongoDB', level: 80, years: '3+' },
+        { name: 'PostgreSQL', level: 78, years: '2+' },
       ],
       color: 'from-emerald-500 to-green-600',
     },
@@ -43,11 +44,30 @@ const Skills = () => {
       icon: Smartphone,
       skills: [
         { name: 'React Native', level: 85, years: '3+' },
-        { name: 'Flutter', level: 80, years: '2+' },
-        { name: 'Swift', level: 75, years: '2+' },
-        { name: 'Kotlin', level: 70, years: '1+' },
+        { name: 'Flutter', level: 75, years: '2+' },
       ],
       color: 'from-purple-500 to-violet-600',
+    },
+    {
+      name: 'Design',
+      icon: Palette,
+      skills: [
+        { name: 'Figma', level: 88, years: '3+' },
+        { name: 'Canva', level: 85, years: '2+' },
+        { name: 'AI Generated Images', level: 80, years: '2+' },
+      ],
+      color: 'from-pink-500 to-rose-600',
+    },
+    {
+      name: 'Tools',
+      icon: Code,
+      skills: [
+        { name: 'Git/Github', level: 92, years: '6+' },
+        { name: 'VS Code', level: 90, years: '5+' },
+        { name: 'Postman', level: 85, years: '3+' },
+        { name: 'IntelliJ', level: 80, years: '2+' },
+      ],
+      color: 'from-indigo-500 to-blue-600',
     },
     {
       name: 'DevOps',
@@ -55,32 +75,9 @@ const Skills = () => {
       skills: [
         { name: 'AWS', level: 85, years: '3+' },
         { name: 'Docker', level: 88, years: '4+' },
-        { name: 'Kubernetes', level: 80, years: '2+' },
         { name: 'CI/CD', level: 82, years: '3+' },
       ],
       color: 'from-orange-500 to-red-600',
-    },
-    {
-      name: 'Tools',
-      icon: Code,
-      skills: [
-        { name: 'Git', level: 92, years: '6+' },
-        { name: 'VS Code', level: 90, years: '5+' },
-        { name: 'Figma', level: 75, years: '2+' },
-        { name: 'Postman', level: 85, years: '3+' },
-      ],
-      color: 'from-indigo-500 to-blue-600',
-    },
-    {
-      name: 'Other',
-      icon: Globe,
-      skills: [
-        { name: 'AI/ML', level: 70, years: '1+' },
-        { name: 'Blockchain', level: 65, years: '1+' },
-        { name: 'Web3', level: 60, years: '1+' },
-        { name: 'IoT', level: 55, years: '<1' },
-      ],
-      color: 'from-pink-500 to-rose-600',
     },
   ]
 
@@ -155,7 +152,6 @@ const Skills = () => {
                   key={skill.name}
                   className="p-6 bg-white/5 border border-white/10 rounded-2xl backdrop-blur-xl"
                   whileHover={{ scale: 1.02, y: -5 }}
-                  transition={{ duration: 0.2 }}
                   initial={{ opacity: 0, x: -20 }}
                   animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: -20 }}
                   transition={{ duration: 0.6, delay: index * 0.1 }}
@@ -185,7 +181,7 @@ const Skills = () => {
           {/* Summary Stats */}
           <motion.div variants={itemVariants} className="grid grid-cols-1 md:grid-cols-4 gap-6">
             {[
-              { number: '25+', label: 'Technologies Mastered' },
+              { number: '30+', label: 'Technologies Mastered' },
               { number: '4', label: 'Years of Experience' },
               { number: '95%', label: 'Average Proficiency' },
               { number: '100+', label: 'Projects Completed' },
@@ -194,7 +190,6 @@ const Skills = () => {
                 key={stat.label}
                 className="text-center p-6 bg-white/5 border border-white/10 rounded-2xl backdrop-blur-xl"
                 whileHover={{ scale: 1.05, y: -5 }}
-                transition={{ duration: 0.2 }}
                 initial={{ opacity: 0, y: 20 }}
                 animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}

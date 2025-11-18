@@ -22,13 +22,13 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
   const post = {
     title: 'Sample Blog Post Title',
     description: 'This is a sample blog post description',
-    author: 'Deepak Kumar',
+    author: 'Iqra Zafar',
     date: '2024-01-15',
     tags: ['React', 'TypeScript', 'Web Development']
   }
 
   return {
-    title: `${post.title} - Deepak Kumar`,
+    title: `${post.title} - Iqra Zafar`,
     description: post.description,
     authors: [{ name: post.author }],
     keywords: post.tags,

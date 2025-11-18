@@ -5,7 +5,7 @@ import Map from '@/components/Map'
 import SocialLinks from '@/components/SocialLinks'
 
 export const metadata = {
-  title: 'Contact - Deepak Kumar | Get In Touch',
+  title: 'Contact - Iqra Zafar | Get In Touch',
   description: 'Ready to start your project? Get in touch with me for a consultation. I\'m here to help bring your ideas to life.',
 }
 

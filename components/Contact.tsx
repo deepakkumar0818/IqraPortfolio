@@ -50,8 +50,8 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      value: 'deepakkumr0818@gmail.com',
-      href: 'mailto:deepakkumr0818@gmail.com',
+      value: 'iqrazafarkhan01@gmail.com',
+      href: 'mailto:iqrazafarkhan01@gmail.com',
       color: 'text-red-400',
     },
     {
@@ -193,7 +193,7 @@ const Contact = () => {
                         onChange={handleInputChange}
                         required
                         className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-300"
-                        placeholder="Deepak Kumar"
+                        placeholder="Iqra Zafar"
                       />
                     </div>
                     

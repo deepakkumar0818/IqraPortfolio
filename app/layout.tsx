@@ -8,21 +8,21 @@ import SmoothScroll from '@/components/SmoothScroll'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Deepak Kumar - Full Stack Developer',
+  title: 'Iqra Zafar - Full Stack Developer',
   description: 'Professional portfolio showcasing modern web development skills, projects, and experience.',
   keywords: 'portfolio, developer, web development, react, nextjs, typescript',
-  authors: [{ name: 'Deepak Kumar' }],
+  authors: [{ name: 'Iqra Zafar' }],
   viewport: 'width=device-width, initial-scale=1',
   robots: 'index, follow',
   openGraph: {
-    title: 'Deepak Kumar - Full Stack Developer',
+    title: 'Iqra Zafar - Full Stack Developer',
     description: 'Professional portfolio showcasing modern web development skills',
     type: 'website',
     locale: 'en_US',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Deepak Kumar - Full Stack Developer',
+    title: 'Iqra Zafar - Full Stack Developer',
     description: 'Professional portfolio showcasing modern web development skills',
   },
 }

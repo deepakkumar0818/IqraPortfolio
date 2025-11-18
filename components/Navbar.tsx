@@ -36,9 +36,9 @@ const Navbar = () => {
   }
 
   const socialLinks = [
-    { name: 'GitHub', href: 'https://github.com/deepakkumar0818', icon: Github },
-    { name: 'LinkedIn', href: 'https://www.linkedin.com/in/itsdeepakk/', icon: Linkedin },
-    { name: 'Email', href: 'mailto:deepakkumr0818@gmail.com?subject=New%20Project%20Inquiry&body=Hi%20Deepak%2C%0A%0AI%27d%20like%20to%20discuss%20a%20potential%20project.%20Here%20are%20the%20details%3A%0A%0A-%20Budget%3A%0A-%20Timeline%3A%0A-%20Scope%3A%0A%0AThanks%2C%0A', icon: Mail },
+    { name: 'GitHub', href: 'https://github.com/iqra-zafar', icon: Github },
+    { name: 'LinkedIn', href: 'https://www.linkedin.com/in/iqrazafar?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', icon: Linkedin },
+    { name: 'Email', href: 'mailto:iqrazafarkhan01@gmail.com?subject=New%20Project%20Inquiry&body=Hi%20Iqra%2C%0A%0AI%27d%20like%20to%20discuss%20a%20potential%20project.%20Here%20are%20the%20details%3A%0A%0A-%20Budget%3A%0A-%20Timeline%3A%0A-%20Scope%3A%0A%0AThanks%2C%0A', icon: Mail },
   ]
 
   return (
@@ -63,7 +63,7 @@ const Navbar = () => {
               href="/"
               className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-white via-cyan-200 to-blue-300 bg-clip-text text-transparent hover:from-cyan-400 hover:to-blue-500 transition-all duration-300"
             >
-              <span className="text-shadow-glow italic font-[cursive]">Deepak Kumar</span>
+              <span className="text-shadow-glow italic font-[cursive]">Iqra Zafar</span>
             </a>
           </motion.div>
 

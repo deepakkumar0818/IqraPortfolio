@@ -21,12 +21,12 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
   const project = getProjectBySlug(params.slug)
   if (!project) {
     return {
-      title: 'Project Not Found - Deepak Kumar',
+      title: 'Project Not Found - Iqra Zafar',
       description: 'The requested project could not be found.',
     }
   }
   return {
-    title: `${project.title} - Deepak Kumar`,
+    title: `${project.title} - Iqra Zafar`,
     description: project.description,
     keywords: project.technologies,
   }

@@ -74,7 +74,7 @@ const ContactForm = () => {
               onChange={handleInputChange}
               required
               className="w-full pl-12 pr-4 py-4 bg-white/10 border border-white/20 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-transparent transition-all duration-300"
-              placeholder="Deepak Kumar"
+              placeholder="Iqra Zafar"
             />
           </div>
           

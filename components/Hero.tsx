@@ -208,7 +208,7 @@ const Hero = () => {
                 transition={{ duration: 1, ease: 'easeOut' }}
               >
                 <span className="bg-gradient-to-r from-white via-cyan-100 to-blue-200 bg-clip-text text-transparent">
-                  Deepak Kumar
+                  Iqra Zafar
                 </span>
               </motion.h1>
               
@@ -272,7 +272,7 @@ const Hero = () => {
             </motion.a>
             
             <motion.a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=deepakkumr0818@gmail.com&su=New%20Project%20Inquiry&body=Hi%20Deepak%2C%0A%0AI%27d%20like%20to%20discuss%20a%20potential%20project.%20Here%20are%20the%20details%3A%0A%0A-%20Budget%3A%0A-%20Timeline%3A%0A-%20Scope%3A%0A%0AThanks%2C%0A"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=iqrazafarkhan01@gmail.com&su=New%20Project%20Inquiry&body=Hi%20Iqra%2C%0A%0AI%27d%20like%20to%20discuss%20a%20potential%20project.%20Here%20are%20the%20details%3A%0A%0A-%20Budget%3A%0A-%20Timeline%3A%0A-%20Scope%3A%0A%0AThanks%2C%0A"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.02, y: -2 }}
@@ -371,7 +371,7 @@ const Hero = () => {
                       <div className="mt-3 flex items-center gap-2">
                         <a href="/projects/erp-manufacturing" className="px-3 py-2 rounded-lg bg-gradient-to-r from-cyan-500 to-blue-600 text-white text-xs font-medium">Case Study</a>
                         <a href="#" className="px-3 py-2 rounded-lg border border-white/15 text-white text-xs font-medium hover:border-cyan-400/50">Live Demo</a>
-                        <a href="https://github.com/deepakkumar0818" aria-label="GitHub" className="ml-auto p-2 rounded-lg bg-white/5 border border-white/10 text-white hover:border-white/20">
+                        <a href="https://github.com/iqra-zafar" aria-label="GitHub" className="ml-auto p-2 rounded-lg bg-white/5 border border-white/10 text-white hover:border-white/20">
                           <Github className="h-4 w-4" />
                         </a>
                       </div>

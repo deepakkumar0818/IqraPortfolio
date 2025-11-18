@@ -4,7 +4,7 @@ import BlogGrid from '@/components/BlogGrid'
 import Newsletter from '@/components/Newsletter'
 
 export const metadata = {
-  title: 'Blog - Deepak Kumar | Tech Insights',
+  title: 'Blog - Iqra Zafar | Tech Insights',
   description: 'Read my latest articles on web development, technology trends, and software engineering insights.',
 }
 

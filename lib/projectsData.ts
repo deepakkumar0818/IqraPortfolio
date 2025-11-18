@@ -141,6 +141,56 @@ export const projects: Project[] = [
     links: { demo: '#', github: '#' },
     image: '/images/projects/fleetmanagement.png',
   },
+  {
+    slug: 'real-estate-platform-admin-panel',
+    title: 'Real Estate Platform with Admin Panel',
+    description:
+      'Designed comprehensive real estate management system for admins and managers, ensuring seamless operations with an intuitive dashboard. Created a scalable design system and optimized user flows, improving property discovery time by 30%.',
+    category: 'Real Estate',
+    date: '2024',
+    technologies: ['React', 'Node.js', 'Express.js', 'PostgreSQL', 'Tailwind CSS'],
+    links: { demo: '#', github: '#' },
+  },
+  {
+    slug: 'interior-design-website',
+    title: 'Interior Design Website',
+    description:
+      'Designed a storytelling-focused interior design website with style quiz, cost estimator, and rich project galleries. Built a lightweight admin panel for project uploads and enquiries, boosting qualified leads by 22%.',
+    category: 'Web Design',
+    date: '2024',
+    technologies: ['Next.js', 'React', 'Tailwind CSS', 'Figma', 'Node.js'],
+    links: { demo: '#', github: '#' },
+  },
+  {
+    slug: 'pixel-bharat-employee-management-system',
+    title: 'Pixel Bharat Employee Management System & Mobile App (Admin)',
+    description:
+      'Designed and developing the employee management system, streamlining HR operations with a user-friendly interface for managing employee records and performance. Developed the mobile application specifically for admins, allowing easy access to employee data, attendance, and real-time management on the go.',
+    category: 'HR',
+    date: '2024',
+    technologies: ['React', 'React Native', 'Node.js', 'Express.js', 'PostgreSQL'],
+    links: { demo: '#', github: '#' },
+  },
+  {
+    slug: 'scott-keever-personal-websites',
+    title: 'Scott Keever - 5 Personal Websites',
+    description:
+      'Designed five unique, brand-consistent personal websites for Scott Keever, integrating modern layouts, SEO-focused structures, and optimized UX for conversions. Delivered high-performance, responsive designs with tailored visual identities to enhance personal branding and online authority.',
+    category: 'Portfolio',
+    date: '2024',
+    technologies: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Figma'],
+    links: { demo: '#', github: '#' },
+  },
+  {
+    slug: 'roamin-tribe-travel-website',
+    title: 'Roamin Tribe - Travel Website',
+    description:
+      'Designed a visually immersive travel website with destination guides, booking integration, and experience-based search filters. Crafted a mobile-first, performance-optimized UI with interactive elements to boost user engagement and trip planning efficiency.',
+    category: 'Travel',
+    date: '2024',
+    technologies: ['Next.js', 'React', 'Tailwind CSS', 'Framer Motion', 'Figma'],
+    links: { demo: '#', github: '#' },
+  },
 ]
 
 export function getAllProjects(): Project[] {

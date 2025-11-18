@@ -12,10 +12,11 @@ const Education = () => {
 
   const education = [
     {
-      degree: 'Bachelor of Technology in Electronics and Communication Engineering (CGPA: 7.89/10)',
-      institution: 'I.K. Gujral Punjab Technical University, Jalandhar',
-      location: 'Jalandhar, Punjab',
-      period: '2020 – 2024',
+      degree: 'Electronics & Communication Engineering',
+      institution: 'I. K. Gujral Punjab Technical University, Kapurthala',
+      location: 'Kapurthala, Punjab',
+      period: '2024',
+      percentage: '79%',
       description:
         'Focused on core electronics, communication systems, and software foundations with projects bridging hardware and full‑stack development.',
       achievements: [
@@ -25,16 +26,30 @@ const Education = () => {
       color: 'from-cyan-500 to-blue-600',
     },
     {
-      degree: "Senior Secondary (Science) — 12th (81.2%)",
-      institution: "St Paul’s Sr. Sec. School, Palampur",
-      location: 'Palampur, Himachal Pradesh',
-      period: '2020',
+      degree: '12th (CBSE)',
+      institution: "S.R. Public School, Orai (U.P)",
+      location: 'Orai, Uttar Pradesh',
+      period: '2019',
+      percentage: '83%',
       description:
         'Science stream with emphasis on Physics, Chemistry, Mathematics, and Computer Science.',
       achievements: [
         'School tech society volunteer and project exhibitions',
       ],
       color: 'from-purple-500 to-violet-600',
+    },
+    {
+      degree: '10th (CBSE)',
+      institution: "Hindi's Angels Public School, Rath (U.P)",
+      location: 'Rath, Uttar Pradesh',
+      period: '2017',
+      percentage: '95%',
+      description:
+        'Completed secondary education with excellent academic performance.',
+      achievements: [
+        'Outstanding academic achievement',
+      ],
+      color: 'from-emerald-500 to-green-600',
     },
   ]
 
@@ -136,7 +151,7 @@ const Education = () => {
                           <p className="text-gray-400">{edu.location}</p>
                         </div>
                         <div className={`px-4 py-2 rounded-lg bg-gradient-to-r ${edu.color} text-white font-medium shadow-lg`}>
-                          {edu.period}
+                          {edu.percentage} | {edu.period}
                         </div>
                       </div>
                     </div>
@@ -200,7 +215,7 @@ const Education = () => {
           {/* Stats */}
           <motion.div variants={itemVariants} className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
-              { number: '2', label: 'Degrees Earned' },
+              { number: '3', label: 'Educational Qualifications' },
               { number: '20+', label: 'Online Courses Completed' },
               { number: '∞', label: 'Learning Never Stops' },
             ].map((stat, index) => (
@@ -208,7 +223,6 @@ const Education = () => {
                 key={stat.label}
                 className="text-center p-6 bg-white/5 border border-white/10 rounded-2xl backdrop-blur-xl"
                 whileHover={{ scale: 1.05, y: -5 }}
-                transition={{ duration: 0.2 }}
                 initial={{ opacity: 0, y: 20 }}
                 animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}

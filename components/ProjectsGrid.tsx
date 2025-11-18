@@ -37,6 +37,11 @@ const ProjectsGrid = () => {
       'hrms': '👥',
       'school-management-system': '🏫',
       'fleet-management-system': '🚚',
+      'real-estate-platform-admin-panel': '🏢',
+      'interior-design-website': '🎨',
+      'pixel-bharat-employee-management-system': '👔',
+      'scott-keever-personal-websites': '🌐',
+      'roamin-tribe-travel-website': '✈️',
     }
     return emojiMap[slug] || '📱'
   }
@@ -55,6 +60,11 @@ const ProjectsGrid = () => {
       'hrms': 'from-fuchsia-500 to-pink-600',
       'school-management-system': 'from-red-500 to-rose-600',
       'fleet-management-system': 'from-slate-500 to-gray-600',
+      'real-estate-platform-admin-panel': 'from-indigo-500 to-purple-600',
+      'interior-design-website': 'from-pink-500 to-rose-600',
+      'pixel-bharat-employee-management-system': 'from-blue-500 to-cyan-600',
+      'scott-keever-personal-websites': 'from-violet-500 to-purple-600',
+      'roamin-tribe-travel-website': 'from-teal-500 to-cyan-600',
     }
     return colorMap[slug] || 'from-cyan-500 to-blue-600'
   }

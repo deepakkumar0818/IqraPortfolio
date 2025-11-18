@@ -36,11 +36,10 @@ const Interests = () => {
   const interests = [
     {
       icon: Trophy,
-      title: 'Basketball',
-      description: 'National level basketball player. The court is where I find discipline, teamwork, and the drive to excel.',
+      title: 'Badminton',
+      description: 'Badminton player. The court is where I find discipline, teamwork, and the drive to excel.',
       color: 'from-orange-500 to-red-600',
       isMain: true,
-      badge: 'National Player',
     },
     {
       icon: Music,
@@ -115,11 +114,6 @@ const Interests = () => {
                     <div className={`inline-flex p-3 rounded-xl bg-gradient-to-r ${interest.color} shadow-lg`}>
                       <interest.icon className="h-6 w-6 text-white" />
                     </div>
-                    {interest.isMain && (
-                      <span className="px-3 py-1 text-xs font-bold text-orange-400 bg-orange-500/20 border border-orange-500/30 rounded-full">
-                        {interest.badge}
-                      </span>
-                    )}
                   </div>
                   <h3 className={`text-xl font-bold text-white mb-2 ${interest.isMain ? 'text-2xl' : ''}`}>
                     {interest.title}
@@ -138,8 +132,8 @@ const Interests = () => {
             className="text-center p-8 bg-white/5 border border-white/10 rounded-2xl backdrop-blur-xl"
           >
             <p className="text-xl text-gray-200 italic max-w-3xl mx-auto">
-              "As a national basketball player, I've learned that discipline, teamwork, and perseverance on the court translate directly to excellence in coding. 
-              The same dedication that drives me to excel in basketball fuels my passion for creating exceptional digital experiences."
+              "As a badminton player, I've learned that discipline, teamwork, and perseverance on the court translate directly to excellence in coding. 
+              The same dedication that drives me to excel in badminton fuels my passion for creating exceptional digital experiences."
             </p>
           </motion.div>
         </motion.div>

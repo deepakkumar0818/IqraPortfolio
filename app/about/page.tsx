@@ -6,7 +6,7 @@ import Education from '@/components/Education'
 import Interests from '@/components/Interests'
 
 export const metadata = {
-  title: 'About Me - Deepak Kumar | Full Stack Developer',
+  title: 'About Me - Iqra Zafar | Full Stack Developer',
   description: 'Learn about my journey, skills, and experience as a full stack developer. Discover my passion for creating innovative digital solutions.',
 }
 

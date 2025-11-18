@@ -33,7 +33,7 @@ export async function POST(req: Request) {
     let fromAddress: string
 
     const hasSmtp = !!process.env.SMTP_HOST && !!process.env.SMTP_USER && !!process.env.SMTP_PASS
-    const to = process.env.CONTACT_TO || 'deepakkumr0818@gmail.com'
+    const to = process.env.CONTACT_TO || 'iqrazafarkhan01@gmail.com'
 
     if (hasSmtp) {
       const host = requireEnv('SMTP_HOST')

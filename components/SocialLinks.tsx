@@ -5,10 +5,10 @@ import { Github, Linkedin, Instagram, Mail } from 'lucide-react'
 
 const SocialLinks = () => {
   const socialLinks = [
-    { name: 'GitHub', href: 'https://github.com/deepakkumar0818', icon: Github, color: 'hover:text-gray-300' },
-    { name: 'LinkedIn', href: 'https://www.linkedin.com/in/itsdeepakk/', icon: Linkedin, color: 'hover:text-blue-400' },
+    { name: 'GitHub', href: 'https://github.com/iqra-zafar', icon: Github, color: 'hover:text-gray-300' },
+    { name: 'LinkedIn', href: 'https://www.linkedin.com/in/iqrazafar?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', icon: Linkedin, color: 'hover:text-blue-400' },
     { name: 'Instagram', href: '#', icon: Instagram, color: 'hover:text-pink-400' },
-    { name: 'Email', href: 'mailto:deepakkumr0818@gmail.com?subject=New%20Project%20Inquiry&body=Hi%20Deepak%2C%0A%0AI%27d%20like%20to%20discuss%20a%20potential%20project.%20Here%20are%20the%20details%3A%0A%0A-%20Budget%3A%0A-%20Timeline%3A%0A-%20Scope%3A%0A%0AThanks%2C%0A', icon: Mail, color: 'hover:text-emerald-400' },
+    { name: 'Email', href: 'mailto:iqrazafarkhan01@gmail.com?subject=New%20Project%20Inquiry&body=Hi%20Iqra%2C%0A%0AI%27d%20like%20to%20discuss%20a%20potential%20project.%20Here%20are%20the%20details%3A%0A%0A-%20Budget%3A%0A-%20Timeline%3A%0A-%20Scope%3A%0A%0AThanks%2C%0A', icon: Mail, color: 'hover:text-emerald-400' },
   ]
 
   return (

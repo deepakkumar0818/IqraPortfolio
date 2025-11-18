@@ -76,8 +76,8 @@ const ContactHero = () => {
               {
                 icon: Mail,
                 title: 'Email Me',
-                description: 'deepakkumr0818@gmail.com',
-                href: 'mailto:deepakkumr0818@gmail.com',
+                description: 'iqrazafarkhan01@gmail.com',
+                href: 'mailto:iqrazafarkhan01@gmail.com',
                 color: 'from-red-500 to-pink-600',
               },
               {

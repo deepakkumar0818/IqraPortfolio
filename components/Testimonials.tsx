@@ -15,7 +15,7 @@ const Testimonials = () => {
       name: 'Priya Sharma',
       role: 'Operations Director, TechVenture India',
       company: 'TechVenture India',
-      content: 'Working with Deepak Kumar was an absolute pleasure. They delivered a stunning ERP system for our manufacturing unit that exceeded our expectations. The attention to detail and technical expertise is unmatched.',
+      content: 'Working with Iqra Zafar was an absolute pleasure. They delivered a stunning ERP system for our manufacturing unit that exceeded our expectations. The attention to detail and technical expertise is unmatched.',
       rating: 5,
       image: '/api/placeholder/100/100',
       project: 'ERP Manufacturing System',

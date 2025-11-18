@@ -4,7 +4,7 @@ import ProjectsGrid from '@/components/ProjectsGrid'
 import ProjectCategories from '@/components/ProjectCategories'
 
 export const metadata = {
-  title: 'Projects - Deepak Kumar | Portfolio',
+  title: 'Projects - Iqra Zafar | Portfolio',
   description: 'Explore my portfolio of web applications, mobile apps, and digital solutions. See how I solve complex problems with innovative technology.',
 }
 
